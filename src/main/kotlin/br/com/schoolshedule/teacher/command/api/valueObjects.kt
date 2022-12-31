@@ -1,6 +1,5 @@
 package br.com.schoolshedule.teacher.command.api
 
-import net.bytebuddy.implementation.bind.MethodDelegationBinder.ParameterBinding.Anonymous
 import java.util.UUID
 
 data class TeacherId(val identifier: UUID = UUID.randomUUID()) {
